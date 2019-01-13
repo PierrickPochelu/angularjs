@@ -15,7 +15,7 @@ export class CatsComponent implements OnInit {
 
   ngOnInit() {
   }
-  pdfSrc: string=require('./pdf-test.pdf');
+  pdfSrc: string='./pdf-test.pdf';
 }
 
 
