@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-cats',
   templateUrl: './cats.component.html',
   styleUrls: ['./cats.component.css']
 })
-
 
 
 
@@ -15,7 +15,8 @@ export class CatsComponent implements OnInit {
 
   ngOnInit() {
   }
-  pdfSrc: string='./pdf-test.pdf';
+  private pdfSrc = '/assets/pdf-test.pdf';
+  private LOGO = '/assets/img.png';
 }
 
 
